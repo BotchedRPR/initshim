@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CLion project files
+.idea/
+
+# CMake build files
+cmake-build-debug/
