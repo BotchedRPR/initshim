@@ -1,3 +1,0 @@
-/home/bochenek/CLionProjects/initshim/cmake-build-debug/CMakeFiles/initshim.dir
-/home/bochenek/CLionProjects/initshim/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bochenek/CLionProjects/initshim/cmake-build-debug/CMakeFiles/rebuild_cache.dir
