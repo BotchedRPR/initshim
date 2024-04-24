@@ -40,7 +40,7 @@ void initConsoleToFD()
 int main()
 {
     //initConsoleToFD();
-	printf("Hi, I'm alive!");
+	printf("Hi, I'm alive!\n");
 	initDrm();
     return 0;
 }
