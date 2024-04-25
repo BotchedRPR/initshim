@@ -18,5 +18,5 @@ add_executable(initshim
         src/main.c
         src/drm.c
         include/drm.h
-        include/debug_config.h)
+)
 target_link_libraries(initshim drm)

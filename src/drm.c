@@ -2,8 +2,6 @@
 #include <fcntl.h>
 #include <stdio.h>
 
-#include <debug_config.h>
-
 int initDrm()
 {
 	int ret, fd = 0;
@@ -11,9 +9,6 @@ int initDrm()
 
 #ifndef AMD
 	fd = open("/dev/dri/card0", O_RDWR);
-#endif
-#ifdef AMD
-	fd = open("/dev/dri/card1", O_RDWR);
 #endif
 	if(fd < 0)
 	{
