@@ -42,5 +42,6 @@ int main()
     //initConsoleToFD();
 	printf("Hi, I'm alive!\n");
 	initDrm();
-    return 0;
+    /* NEVER exit as init */
+    for(;;){}
 }
