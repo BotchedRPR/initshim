@@ -176,6 +176,8 @@ int createDumbFB(int *fd, drmModeResPtr *res, struct framebuffer *fb)
     fb->fd = *fd;
     fb->connector = connectorPtr;
     fb->resolution = resolution;
+
+    return 0;
 }
 
 int initDrm()

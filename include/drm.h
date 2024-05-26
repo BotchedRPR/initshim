@@ -1,8 +1,13 @@
 #ifndef INITSHIM_DRM_H
 #define INITSHIM_DRM_H
 
+#if __has_include(<drm/drm.h>) && __has_include(<drm/drm_mode.h>)
+#include <drm/drm.h>
+#include <drm/drm_mode.h>
+#else
 #include <libdrm/drm.h>
 #include <libdrm/drm_mode.h>
+#endif
 #include <xf86drm.h>
 #include <xf86drmMode.h>
 

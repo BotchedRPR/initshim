@@ -1,0 +1,20 @@
+cc_binary {
+    name: "initshim",
+    recovery: true,
+    cflags: [
+        "-Werror",
+        "-Wno-macro-redefined",
+        "-std=gnu11"
+    ],
+    local_include_dirs: [
+        "include"
+    ],
+    srcs: [
+        "src/main.c",
+        "src/drm.c"
+    ],
+    whole_static_libs: [
+        "libdrm-static",
+    ],
+    static_executable: true,
+}
